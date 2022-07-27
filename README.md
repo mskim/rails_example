@@ -1,24 +1,20 @@
-# README
+# This is sample rails app for developing with VSCode devcontainer.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I am playing with it to see how it works.
+I started the article 
 
-Things you may want to cover:
+https://dev.to/imiked/starting-a-rails-app-using-vscode-containers-1gj9
 
-* Ruby version
 
-* System dependencies
+on database.yml
+I had to set user as postgres not LocalPassword as article say.
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  user: postgres
+  # password: LocalPassword
+  password: postgres
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+my goal is to push this to github and
+run it with another host from my local machine.
